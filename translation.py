@@ -1,6 +1,5 @@
 class Translation(object):
-    START_TEXT = """Hi,
-I'm X-URL Uploader!
+    START_TEXT = """
 You can upload HTTP/HTTPS direct link, Using this bot!
 
 /help for more details!"""
@@ -15,7 +14,7 @@ URL | filename | username | password"""
     UPLOAD_START = "Now Uploading.."
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, Now Uploading.."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Thanks for using @xurluploaderbot)"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Thanks for using @kntI0bot)"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds.\n\n@xurluploaderbot"
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://t.me/xgorn'>@xgorn</a>"
@@ -23,7 +22,7 @@ URL | filename | username | password"""
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
-    CUSTOM_CAPTION_UL_FILE = "@xurluploaderbot"
+    CUSTOM_CAPTION_UL_FILE = "@kntI0bot"
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
@@ -31,21 +30,21 @@ URL | filename | username | password"""
 --------
 Telegram ID: <code>{}</code>
 Plan name: Free Forever Fucking User
-Expires on: 31/12/2020"""
+Expires on: No Body Will Know"""
     HELP_USER = """How to Use Me? Follow These steps!
     
 1. Send url (example.domain/File.mp4 | New Filename.mp4).
-2. Send Image As Custom Thumbnail (Optional).
-3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File (video) as file with Screenshots
-   Video  - Give File as video without Screenshots
-   File   - Give File without Screenshots
+\n2. Send Image As Custom Thumbnail (Optional).
+\n3. Select the button.\n
+   SVideo - Give File as video with Screenshots\n
+   DFile  - Give File (video) as file with Screenshots\n
+   Video  - Give File as video without Screenshots\n
+   File   - Give File without Screenshots\n
 
 --------
 Send /me to know current plan details
 
-If bot didn't respond, contact @xgorn"""
+If bot didn't respond, contact @xdtosky"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
