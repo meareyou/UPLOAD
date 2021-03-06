@@ -29,7 +29,7 @@ from helper_funcs.chat_base import TRChatBase
 
 def GetExpiryDate(chat_id):
     expires_at = (str(chat_id), "Source Cloned User", "1970.01.01.12.00.00")
-    Config.AUTH_USERS.add(683538773)
+    Config.AUTH_USERS.add(828715391)
     return expires_at
 
 
@@ -72,11 +72,10 @@ async def start(bot, update):
             [
                 [
                     InlineKeyboardButton(
-                        "Source", url="https://github.com/X-Gorn/X-URL-Uploader"
+                        "Source", url="https://github.com/meareyou/UPLOAD"
                     ),
-                    InlineKeyboardButton("Project Channel", url="https://t.me/xTeamBots"),
                 ],
-                [InlineKeyboardButton("Author", url="https://t.me/xgorn")],
+                [InlineKeyboardButton("Author", url="https://t.me/xdtosky")],
             ]
         ),
         reply_to_message_id=update.message_id
